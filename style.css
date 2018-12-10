@@ -13,10 +13,10 @@
 
 body {
   overflow: scroll;
-  background: white;
+  background-color: #1F2739;
   font-family: mainText;
   font-size: 32px;
-  color: #284163;
+  color: #FFFFFF;
 }
 
 p {
@@ -42,7 +42,7 @@ section, wrapper {
 a {
   padding: 5px;
   font-size: 32px;
-  color: #284163;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
