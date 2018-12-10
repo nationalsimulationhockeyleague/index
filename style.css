@@ -19,9 +19,13 @@ body {
   color: #284163;
 }
 
-container {
-  max-width: 70%;
-  max-height: auto;
+p {
+  text-decoration: underline;
+}
+
+.container {
+  position: static;
+  margin: 0 auto;
 }
 
 section, wrapper {
@@ -36,12 +40,15 @@ section, wrapper {
 }
 
 a {
+  padding: 5px;
   font-size: 32px;
   color: #284163;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000000;
+  color: #FFFFFF;
   background-color: #284163;
+  transition: 1s;
+  border-radius: 10px 10px 10px 10px;
 }
