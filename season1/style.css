@@ -1,0 +1,65 @@
+/*
+  Side Navigation Menu V2, RWD
+  ===================
+  License:
+  https://goo.gl/EaUPrt
+  ===================
+  Author: @PableraShow
+
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  overflow: scroll;
+  background-color: #1F2739;
+  font-family: mainText;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.container {
+  position: static;
+  margin: 0 auto;
+}
+
+section, wrapper {
+  text-align: center;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  padding: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #284163;
+  transition: 1s;
+  border-radius: 10px 10px 10px 10px;
+}
+
+h1 {
+    size: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    -moz-border-radius:6px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
